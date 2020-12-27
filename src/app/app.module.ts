@@ -8,6 +8,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FullPageIntroComponent } from './full-page-intro/full-page-intro.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { AboutMeComponent } from './about-me/about-me.component';
     HomePageComponent,
     NavbarComponent,
     FullPageIntroComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    ExperienceComponent,
+    ProjectsComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,
